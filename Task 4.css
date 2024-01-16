@@ -1,0 +1,38 @@
+body {
+    background-color: gold ;
+    color: black;
+    font-family: Questrial;
+}
+
+header {
+    text-align: center;
+}
+
+input[type=text], textarea {
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that things stay in place */
+    margin: 6px 0px 16px 0px; /* Top right bottom left margin */
+    padding: 12px; /* Some surrounding space */ 
+    resize: vertical; /* Allow users to vertically resize the textarea */
+    width: 100%; /* Full width */
+}
+  
+
+/* Styling the submit button */
+button[type=button] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 28px;
+    cursor: pointer;
+  }
+  
+  /* Styling it for the hover state (mouse moving on top */
+  button[type=button]:hover {
+    background-color: white;
+    color: black;
+  }
+
+ 
+  
